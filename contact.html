@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML - Final Project</title>
+
+    <style>
+      #header {
+        background-color: navy;
+        text-align: center;
+        padding: 18px;
+      }
+
+      .header-section {
+        color: whitesmoke;
+        padding: 20px;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      #contact-form {
+        background-color: white;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 30px;
+        border: 1px solid #ccc;
+      }
+
+      .form-section {
+        font-size: 16px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        margin-bottom: 30px;
+        padding-bottom: 10px;
+      }
+
+      #form-submit {
+        margin-top: 20px;
+        background-color: navy;
+        padding: 12px 24px 12px 24px;
+        color: white;
+        border: none;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background-color: #f2f6ff">
+    <header>
+      <div id="header">
+        <a class="header-section" href="trips.html">TRIPS</a>
+        <a class="header-section" href="about.html">ABOUT</a>
+        <a class="header-section" href="contact.html">CONTACT</a>
+      </div>
+    </header>
+    <main>
+      <h2>Wanna come on my next trip? Contact Me.</h2>
+      <form id="contact-form">
+        <div>
+          <input
+            class="form-section"
+            type="text"
+            name="full-name"
+            placeholder="Full Name"
+          />
+        </div>
+        <div>
+          <input
+            class="form-section"
+            type="email"
+            name="email"
+            placeholder="Email"
+          />
+        </div>
+        <div>
+          <input
+            class="form-section"
+            type="number"
+            name="contact-number"
+            placeholder="Contact Number"
+          />
+        </div>
+        <div>
+          <input id="form-submit" type="submit" value="Submit" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
